@@ -81,7 +81,7 @@ ORDER  BY Count(songplays.user_id) DESC
 LIMIT  10
 ```
 
-![alt text](top_artist.png)
+<img src="top_artist.png" width="300">
 
 #### Top 10 Music Played
 
@@ -97,4 +97,4 @@ ORDER  BY Count(songplays.user_id) DESC
 LIMIT  10
 ```
 
-![alt text](top_song.png)
+<img src="top_song.png" width="300">
