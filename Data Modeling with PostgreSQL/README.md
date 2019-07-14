@@ -89,10 +89,18 @@ Below some examples of query to check the results
 
 Most played songs
 ```
-SELECT COUNT(songplay_id), song_id  FROM songplays GROUP BY song_id ORDER BY COUNT(songplay_id) DESC
+SELECT Count(songplay_id), 
+       song_id 
+FROM   songplays 
+GROUP  BY song_id 
+ORDER  BY Count(songplay_id) DESC 
 ```
 
 Artist with more songs
 ```
-SELECT COUNT(artist_id), name  FROM artists GROUP BY name ORDER BY COUNT(artist_id) DESC
+SELECT Count(artist_id), 
+       NAME 
+FROM   artists 
+GROUP  BY NAME 
+ORDER  BY Count(artist_id) DESC 
 ```
